@@ -1,0 +1,189 @@
+ [
+    {
+        "shop": "MacDonnalds",
+        "label":"McD/macdonalds-logo.svg.png",
+        "wallpaper": "McD/mcdonald-wallpaper.jpg",
+        "products": [
+            {
+                "name": "Cheeseburger",
+                "price": 2,
+                "image": "McD/macDonnalds-Sdwch_Cheeseburger.jfif", 
+                "id": "Qst4Sl9mrAk-NEl-pX80Q"
+            },
+            {
+                "name": "Chiken Roll",
+                "price": 2,
+                "image": "McD/macDonnalds-RollChicken.jfif",
+                "id": "j-8Gqf7p_mlWO0uQO8Er9"
+            },
+            {
+                "name": "Fries Set",
+                "price": 1.5,
+                "image": "McD/macDonnalds-FFLarge.jfif",
+                "id": "P3j3Ae-zCVIfRcalRI-MW"
+            },
+            {
+                "name": "Coca-Cola",
+                "price": 1,
+                "image": "McD/macDonnalds-CocaCola.jfif",
+                "id": "ubfiFRhsfA8PbV78PYxCQ"
+            },
+            {
+                "name": "Fanta",
+                "price": 1,
+                "image": "McD/macDonnalds-Fanta.jfif",
+                "id": "EoDJogKN1ZcQ_R3FlG7SV"
+            },
+            {
+                "name": "Sprite",
+                "price": 1,
+                "image": "McD/macDonnalds-Sprite.jfif",
+                "id": "0ysbcVunWfc1EyAPh2B9s"
+            }
+        ]
+
+    },
+    {
+        "shop": "KFC",
+        "label":"KFC/kfc-logo.png",
+        "wallpaper": "KFC/kfc-wallpaper.jpg",
+        "products": [
+            {
+                "name": "Baquet duo",
+                "price": 1.5,
+                "image": "KFC/kfc-baquet-duo.png",
+                "id": "EvzTMteL4UW2bRYBD7vCq"
+            },
+            {
+                "name": "Baquet fries",
+                "price": 1.5,
+                "image": "KFC/kfc-baquet-fries.jpg",
+                "id": "_NAk0g-WESfv__Ay1_a2T"
+            },
+            {
+                "name": "Ukranian toast",
+                "price": 2,
+                "image": "KFC/ukranian-toast.jpg",
+                "id": "Dh6WUzj30hmhfyYgMXHJ9"
+            },
+            {
+                "name": "Capuchino",
+                "price": 1,
+                "image": "KFC/kfc-capuchino.png",
+                "id": "-Hi-YN0yfoS7Iom4vsGO4"
+            },
+            {
+                "name": "Ice tea",
+                "price": 1,
+                "image": "KFC/kfc-cold-tea.jpg",
+                "id": "4c7Z9CSu5QGFvb1vo4xVU"
+            },
+            {
+                "name": "Ice cream",
+                "price": 1,
+                "image": "KFC/kfc-ice-cream.jpg",
+                "id": "8nPYDcTP-qbgC136MXRE6"
+            },
+            {
+                "name": "Pepsi",
+                "price": 1,
+                "image": "KFC/pepsi.png",
+                "id": "BEIohtsdtGimRN8Dyq-N8"
+            }
+
+        ]
+    },
+    {
+        "shop": "King Pizza",
+        "label":"KingPizza/king-pizza-logo.png",
+        "wallpaper": "KingPizza/king-pizza-wallpaper.jpg",
+        "products": [
+            {
+                "name": "4 x 4",
+                "price": 1,
+                "image": "KingPizza/4x4.jpeg",
+                "id": "KT7sHG7hLXPfCNkjngIpi"
+            },
+            {
+                "name": "Barbecue",
+                "price": 1.1,
+                "image": "KingPizza/barbecue.jpg",
+                "id": "ysYIvtlxus1bO-88zeAsn"
+            },
+            {
+                "name": "Caesar",
+                "price": 1.2,
+                "image": "KingPizza/caesar.jpg",
+                "id": "c-XoFMOjnrkr8MvfjGuPN"
+            },
+            {
+                "name": "King Arthur",
+                "price": 1.3,
+                "image": "KingPizza/King-arthur.jpg",
+                "id": "8Z8fBbH143AE_tINxb_3T"
+            },
+            {
+                "name": "Paperoni Extra",
+                "price": 1.4,
+                "image": "KingPizza/paperoni-extra.jpg",
+                "id": "vSb1NHBMNxUkmJiu5WH10"
+            },
+            {
+                "name": "Victory",
+                "price": 1.5,
+                "image": "KingPizza/victory.jpg",
+                "id": "Ste5UUVdD2-10zqQzzo2C"
+            },
+            {
+                "name": "King Pizza",
+                "price": 1.6,
+                "image": "KingPizza/king.jpg",
+                "id": "zRZ573YVxmAvD4zgg0kId"
+            } 
+        ]
+    },
+    {
+        "shop": "Yakitoriya",
+        "label":"Yaki/yaki-logo.png",
+        "wallpaper": "Yaki/yaki-wallpaper.jpg",
+        "products": [
+            {
+                "name": "Asia mix",
+                "price": 5,
+                "image": "Yaki/aziya-miks.jpeg",
+                "id": "VZfwh9_tkHz9ccj9sfeln"
+            },
+            {
+                "name": "Yokohama set",
+                "price": 5.1,
+                "image": "Yaki/iokogama-set.jpeg",
+                "id": "slBKGyuOHI9j8IgmlKfZR"
+            },
+            {
+                "name": "Katana mini",
+                "price": 3,
+                "image": "Yaki/katana-mini.jpeg",
+                "id": "Q7rMKADZbcXYPc-uz_MCI"
+            },
+            {
+                "name": "Love Story xxxl",
+                "price": 6,
+                "image": "Yaki/love-story-xxxl.jpeg",
+                "id": "aT_wv60IPSo1vgQ7uoIgc"
+            },
+            {
+                "name": "Osaka set",
+                "price": 3,
+                "image": "Yaki/osaka-set.jpeg",
+                "id": "h9wjpMwC3heFeq_nzPZ7U"
+            },
+            {
+                "name": "Red Dragon",
+                "price": 3,
+                "image": "Yaki/red-dragon.jpeg",
+                "id": "8yVSoVQk1e8itZ8qd32yq"
+            }
+        ]
+    }         
+]
+
