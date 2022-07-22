@@ -7,9 +7,7 @@ const {getAllProducts, acceptOrder} = require('./controllers');
 require('dotenv').config();
 
 const app = express();
-app.use(cors({
-    origin: ["http://localhost:3000/FoodDeliveryFrontendPart"],
-}));
+app.use(cors());
 app.use(express.json());
 
 
