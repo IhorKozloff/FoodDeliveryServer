@@ -7,16 +7,17 @@ const {getAllProducts, acceptOrder} = require('./controllers');
 
 
 const app = express();
-
-app.use(express.json());
-app.use(cors({
-    origin: "*",
-    methods: ['GET','POST']
-}));
 app.use(express.static("img"));
+app.use(express.json());
 
-app.get('/products', getAllProducts);
-app.post('/accept-order', acceptOrder);
+const corsOptions = {
+    origin: '*'
+}
+// app.use();
+
+
+app.get('/products', cors(corsOptions), getAllProducts);
+app.post('/accept-order', cors(corsOptions), acceptOrder);
 
 app.use((err, req, res, next) => {
     const { status = 500, message = "Server error" } = err;
