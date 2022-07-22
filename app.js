@@ -3,7 +3,7 @@ const cors = require('cors');
 
 
 
-const {getAllProducts, acceptOrder} = require('./controllers');
+const {getAllProducts, acceptOrder, getAllOrders} = require('./controllers');
 require('dotenv').config();
 
 const app = express();
@@ -14,6 +14,7 @@ app.use(express.json());
 app.use(express.static("img"));
 
 app.get('/products', getAllProducts);
+app.get('/orders', getAllOrders);
 app.post('/accept-order', acceptOrder);
 
 app.use((err, req, res, next) => {
