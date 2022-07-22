@@ -10,7 +10,7 @@ const app = express();
 
 app.use(express.json());
 app.use(cors({
-    origin: "http://http://localhost:3000/FoodDeliveryFrontendPart",
+    origin: "http://http://localhost:3000",
     credentials: true,
 }));
 app.use(express.static("img"));
