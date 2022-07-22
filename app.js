@@ -9,7 +9,10 @@ const {getAllProducts, acceptOrder} = require('./controllers');
 const app = express();
 
 app.use(express.json());
-app.use(cors());
+app.use(cors({
+    origin: "http://http://localhost:3000/FoodDeliveryFrontendPart",
+    credentials: true,
+}));
 app.use(express.static("img"));
 
 app.get('/products', getAllProducts);
